@@ -1,0 +1,213 @@
+@media (max-width: 768px) {
+  .interior {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+
+  .ocean {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+
+  .sunrise {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+  }
+
+  .owner-info {
+    grid-column: 1 / 3;
+    grid-row: 5 / 7;
+    transform: none;
+  }
+
+  .flowers-room {
+    grid-column: 1 / 3;
+    grid-row: 7 / 8;
+  }
+
+  .candles {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+  }
+
+  .chair-basket {
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+  }
+
+  .flowers-branch {
+    grid-column: 1 / 2;
+    grid-row: 9 / 10;
+  }
+
+  .laptop-work {
+    grid-column: 2 / 3;
+    grid-row: 9 / 10;
+  }
+
+  .soap-making {
+    grid-column: 1 / 3;
+    grid-row: 10 / 11;
+  }
+
+  .morning-light {
+    grid-column: 1 / 2;
+    grid-row: 11 / 12;
+  }
+
+  .vision-2030 {
+    grid-column: 2 / 3;
+    grid-row: 11 / 12;
+  }
+
+  .schedule {
+    grid-column: 1 / 3;
+    grid-row: 12 / 13;
+  }
+
+  .flowers-yellow {
+    grid-column: 1 / 3;
+    grid-row: 13 / 14;
+  }
+
+  .workspace {
+    grid-column: 1 / 3;
+    grid-row: 14 / 15;
+  }
+
+  .card-icon {
+    font-size: 2em;
+  }
+
+  .card-name {
+    font-size: 0.9em;
+  }
+
+  .year-text {
+    font-size: 2em;
+  }
+}
+
+/* レスポンシブデザイン */
+@media (max-width: 1200px) {
+  .vision-board {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, minmax(120px, auto));
+  }
+
+  .interior {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+  .ocean {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+  }
+  .sunrise {
+    grid-column: 3 / 5;
+    grid-row: 2 / 3;
+  }
+  .flowers-room {
+    grid-column: 1 / 3;
+    grid-row: 3 / 4;
+  }
+  .candles {
+    grid-column: 3 / 4;
+    grid-row: 3 / 5;
+  }
+  .chair-basket {
+    grid-column: 1 / 2;
+    grid-row: 4 / 6;
+  }
+  .flowers-branch {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+  }
+  .laptop-work {
+    grid-column: 2 / 4;
+    grid-row: 5 / 6;
+  }
+  .soap-making {
+    grid-column: 4 / 5;
+    grid-row: 3 / 6;
+  }
+  .morning-light {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  }
+  .vision-2030 {
+    grid-column: 2 / 5;
+    grid-row: 6 / 8;
+  }
+  .schedule {
+    grid-column: 1 / 5;
+    grid-row: 7 / 8;
+  }
+}
+
+@media (max-width: 768px) {
+  .vision-board {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(12, minmax(100px, auto));
+    gap: 10px;
+    padding: 15px;
+  }
+
+  .card {
+    padding: 15px;
+  }
+
+  /* モバイル用のグリッド配置 */
+  .interior {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+  .ocean {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  .sunrise {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+  }
+  .flowers-room {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
+  }
+  .candles {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  }
+  .chair-basket {
+    grid-column: 2 / 3;
+    grid-row: 5 / 6;
+  }
+  .flowers-branch {
+    grid-column: 1 / 2;
+    grid-row: 6 / 7;
+  }
+  .laptop-work {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+  }
+  .soap-making {
+    grid-column: 1 / 3;
+    grid-row: 7 / 8;
+  }
+  .morning-light {
+    grid-column: 1 / 2;
+    grid-row: 8 / 9;
+  }
+  .vision-2030 {
+    grid-column: 1 / 3;
+    grid-row: 9 / 11;
+  }
+  .schedule {
+    grid-column: 1 / 3;
+    grid-row: 11 / 12;
+  }
+  .flowers-yellow {
+    grid-column: 2 / 3;
+    grid-row: 8 / 9;
+  }
+}

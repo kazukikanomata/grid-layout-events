@@ -1,0 +1,18 @@
+/* アニメーション */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.card:nth-child(odd) {
+  animation: float 6s ease-in-out infinite;
+}
+
+.card:nth-child(even) {
+  animation: float 6s ease-in-out infinite reverse;
+}
