@@ -1,0 +1,67 @@
+<!-- <style>
+  .container {
+    width: 320px;
+    height: 200px;
+    border: 1px solid #aaa;
+  }
+  .seat {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    background: #58a;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+  }
+</style>
+
+<div class="container">
+  <div class="seat">A</div>
+  <div class="seat">B</div>
+  <div class="seat">C</div>
+  <div class="seat">D</div>
+  <div class="seat">E</div>
+</div> -->
+
+<style>
+  .container {
+    width: 330px;
+    border: 1px solid #aaa;
+    font-family: sans-serif;
+  }
+
+  .row {
+    /* 明示的に改行が必要になる */
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .seat {
+    float: left; /* 古の技術！ */
+    width: 100px;
+    height: 60px;
+    margin-right: 10px;
+    background: #58a;
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 6px;
+  }
+
+  .row:last-child .seat:last-child {
+    margin-right: 0;
+  }
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="seat">A</div>
+    <div class="seat">B</div>
+    <div class="seat">C</div>
+  </div>
+  <div class="row">
+    <div class="seat">D</div>
+    <div class="seat">E</div>
+  </div>
+</div>
